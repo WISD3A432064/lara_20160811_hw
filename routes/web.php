@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/',['as'=>'hello.index','uses'=>'HomeController@index']);
+Route::get('/',['as'=>'home.index','uses'=>'HomeController@index']);
 
 
 
